@@ -25,8 +25,8 @@ import threading
 import requests
 
 def ip_address():
-	ipv4_address = get('https://api-ipv4.ip.sb/ip').text
-	return ipv4_address
+    ipv4_address = get('https://api-ipv4.ip.sb/ip').text
+    return ipv4_address
 
 def get_uptime():
     f = open('/proc/uptime', 'r')
