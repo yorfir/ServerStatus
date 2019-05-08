@@ -89,7 +89,7 @@ function uptime() {
 						"<td id=\"ip_status\"><div class=\"progress\"><div style=\"width: 100%;\" class=\"progress-bar progress-bar-warning\"><small>加载中</small></div></div></td>" +
 						"<td id=\"name\">加载中</td>" +
 						"<td id=\"type\">加载中</td>" +
-					        "<td id=\"ip_address\">加载中</td>" +
+					    "<td id=\"ip_address\">加载中</td>" +
 						"<td id=\"location\">加载中</td>" +
 						"<td id=\"uptime\">加载中</td>" +
 						"<td id=\"load\">加载中</td>" +

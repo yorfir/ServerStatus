@@ -45,7 +45,7 @@ def sscmd(address):
         for i in jsonR["servers"]:
             ss.add_row(
                 [
-                    "%s" % 'MH361' if i["ip_status"] is True else 'MH370',
+                    "%s" % i["ip_address"],
                     "%s" % i["name"],
                     "%s" % i["ip_address"],
                     "%s" % i["location"],
