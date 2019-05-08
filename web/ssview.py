@@ -31,7 +31,7 @@ def sscmd(address):
             [
                 "Flight",
                 "节点名",
-                # "虚拟化",
+                "公网IP",
                 "位置",
                 "在线时间",
                 "负载",
@@ -47,7 +47,7 @@ def sscmd(address):
                 [
                     "%s" % 'MH361' if i["ip_status"] is True else 'MH370',
                     "%s" % i["name"],
-                    # "%s" % i["type"],
+                    "%s" % i["ipv4_address"],
                     "%s" % i["location"],
                     "%s" % i["uptime"],
                     "%s" % (i["load_1"]),

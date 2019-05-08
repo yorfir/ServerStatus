@@ -22,6 +22,11 @@ import json
 import subprocess
 import collections
 import threading
+import requests
+
+def ip_address():
+	ipv4_address = get('https://api-ipv4.ip.sb/ip').text
+	return ipv4_address
 
 def get_uptime():
     f = open('/proc/uptime', 'r')
@@ -165,9 +170,9 @@ def ip_status():
 
 def get_network(ip_version):
     if(ip_version == 4):
-        HOST = "ipv4.google.com"
+        HOST = "ipv4.ip.sb"
     elif(ip_version == 6):
-        HOST = "ipv6.google.com"
+        HOST = "ipv6.ip.sb"
     try:
         s = socket.create_connection((HOST, 80), 2)
         s.close()
