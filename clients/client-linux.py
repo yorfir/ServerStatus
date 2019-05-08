@@ -34,6 +34,8 @@ def get_uptime():
     f.close()
     uptime = uptime.split('.', 2)
     time = int(uptime[0])
+    ipv4_address = get('https://api-ipv4.ip.sb/ip').text
+    return ipv4_address
     return int(time)
 
 def get_memory():
