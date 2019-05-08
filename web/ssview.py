@@ -47,7 +47,7 @@ def sscmd(address):
                 [
                     "%s" % 'MH361' if i["ip_status"] is True else 'MH370',
                     "%s" % i["name"],
-                    "%s" % i["ipv4_address"],
+                    "%s" % i["ip_address"],
                     "%s" % i["location"],
                     "%s" % i["uptime"],
                     "%s" % (i["load_1"]),
