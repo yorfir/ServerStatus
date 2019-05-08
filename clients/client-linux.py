@@ -3,10 +3,10 @@
 # Update by : https://github.com/cppla/ServerStatus
 # 支持Python版本：2.7 to 3.5
 # 支持操作系统： Linux, OSX, FreeBSD, OpenBSD and NetBSD, both 32-bit and 64-bit architectures
-# 时间: 20190128
+# 时间: 20190508
 
 
-SERVER = "127.0.0.1"
+SERVER = "192.168.50.162"
 PORT = 35601
 USER = "s01"
 PASSWORD = "USER_DEFAULT_PASSWORD"
